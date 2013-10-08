@@ -6,6 +6,11 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+	class MyInner{
+	    public int level = 0;
+	    MyInner(){
+            }
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
